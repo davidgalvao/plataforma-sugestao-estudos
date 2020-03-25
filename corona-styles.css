@@ -1,0 +1,141 @@
+html{
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.background{
+    background-color: #fbd54f;
+    background-image: url(imagens/bg.jpg);
+    padding: 0px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.top{
+    top: 71px;
+    background-image: url(imagens/top-nuvem.png);
+    background-repeat: no-repeat;
+    height: 486px;
+    width: 914px;
+    margin: 0 43px;
+    position: relative;
+    display: block;
+}
+
+.logo{
+    position: relative;
+    display: block;
+    width: 914px;
+    height: 380px;
+    top: 130px;
+    left: 40px;
+}
+
+.menu{
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 82px;
+}
+
+.menu a{
+    display: inline-flex;
+}
+
+.content{
+    position: relative;
+    display: block;
+    background-color: #f8f8f8;
+    margin: 0 43px;
+    padding-top: 80px;
+    width: 914px;
+    height: auto;
+}
+
+.calendario{
+    display: block;
+    height: fit-content;
+    width: 914px;
+}
+
+.calendario-corpo{
+    display: block;
+    height: fit-content;
+    padding-top: 50px;
+}
+
+.dia{
+    margin-left: -15px;
+}
+
+.calendario-corpo-dia:first-child{
+    margin-left: 30px;
+}
+
+.calendario-corpo-dia{
+    display: inline-block;
+    width: 155px;
+    margin-right: 15px;
+    padding: 0;
+}
+
+#calendario-1-dia-1 .quadro, #calendario-2-dia-1 .quadro, #calendario-3-dia-1 .quadro{
+    width: 155px;
+    height: 155px;
+    background-color: #f1e9d0;
+    margin-bottom: 10px;
+}
+
+#calendario-1-dia-2 .quadro, #calendario-2-dia-2 .quadro, #calendario-3-dia-2 .quadro{
+    width: 155px;
+    height: 155px;
+    background-color: #edd0de;
+    margin-bottom: 10px;
+}
+
+#calendario-1-dia-3 .quadro, #calendario-2-dia-3 .quadro, #calendario-3-dia-3 .quadro{
+    width: 155px;
+    height: 155px;
+    background-color: #cce5e8;
+    margin-bottom: 10px;
+}
+
+#calendario-1-dia-4 .quadro, #calendario-2-dia-4 .quadro, #calendario-3-dia-4 .quadro{
+    width: 155px;
+    height: 155px;
+    background-color: #dee8c0;
+    margin-bottom: 10px;
+}
+
+#calendario-1-dia-5 .quadro, #calendario-2-dia-5 .quadro, #calendario-3-dia-5 .quadro{
+    width: 155px;
+    height: 155px;
+    background-color: #d5c2db;
+    margin-bottom: 10px;
+}
+
+.quadro{
+
+}
+
+.voltar-topo{
+    padding-bottom: 60px;
+}
+
+.rodape{
+
+}
+
+.rodape #rodape{
+    margin-left: -33px;
+}
+
+.arte-final{
+    width: 1000px;
+    height: 100px;
+}
